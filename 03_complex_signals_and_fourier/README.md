@@ -270,7 +270,7 @@ and the only thing we can see is the moon:
 If all you know is the position of the moon, how do you find the position of
 the sun? Simple: Take enough samples of the moon's position over a long enough
 timespan and average them together - all of the periodic components (the Earth
-orbit and moon oribt) will cancel each other out and whatever remains is the
+orbit and moon oribt) will cancel themselves out and whatever remains is the
 fixed position of the sun!
 
 ![Cue the sun!](img/solarsystem_sun.gif)
@@ -293,11 +293,11 @@ When we average it all out, it all cancels out to zero.
 
 But what if, by chance, our spinning frequency is the negative of the Earth's
 frequency? Now the only "fixed" position in the model is the Earth's offset
-from the sun, since that's the only thing being canceled out. Our average will
-tell us the planet's radius (from the sun) and initial angle
+from the sun, since that's the only thing being held stationary the turntable.
+Our average will tell us the planet's radius (from the sun) and initial angle
 (when we turned on the turntable). The planet's speed was canceled out and
-became 0. The sun and moon are nonzero and hence periodic and thus cancel each
-other out.
+became 0. The sun and moon are nonzero and hence periodic and thus cancel
+themselves out.
 
 ![Here's where this whole tutorial gets down to earth](img/solarsystem_earthvec.gif)
 
@@ -307,7 +307,7 @@ movement of the moon (but not the sun and planet).
 ![And we're back to the moon](img/solarsystem_moonvec.gif)
 
 This is what the Fourier transform is all about: over a long enough time, the
-periodic components will cancel each other out, so if you want to find out how
+periodic components will cancel themselves out, so if you want to find out how
 much energy is at a particular frequency, you just need to spin the signal the
 other way around so that it cancels out *only that particular frequency and
 makes everything else periodic*. Then you average.
