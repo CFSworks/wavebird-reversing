@@ -551,6 +551,7 @@ to find the common bit for each button.
 
 Running it tells us that there's pretty consistently one bit that flips for
 each button:
+
 | Button      | Bits that always flip when button is toggled |
 | ----------- | -------------------------------------------- |
 | Start       | 000080000000000000000                        |
