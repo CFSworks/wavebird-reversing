@@ -95,7 +95,7 @@ which would make for a frustrating product.
 Radio seems like the best option here. It's relatively cheap, works through
 obstacles and with the controller not pointed directly at the receiver, and is
 fairly easy to use overall. The only drawbacks are that radio is more heavily
-regulated than the other options (in the U.S., the spectrum is regulted by the
+regulated than the other options (in the U.S., the spectrum is regulated by the
 FCC, and you need a license to transmit on most frequencies) - fortunately,
 those regulatory agencies often set aside unlicensed bands that short-range
 transmitters may use without agency approval, but that leads to another problem
