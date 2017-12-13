@@ -43,6 +43,7 @@ All frequencies used by the WaveBird
 ------------------------------------
 
 Repeating this process for each channel, we get the following table:
+
 | Channel | Frequency (MHz) |
 | ------- | --------------- |
 |       1 |         2479.2  |
