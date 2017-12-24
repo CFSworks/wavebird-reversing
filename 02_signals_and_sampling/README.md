@@ -111,7 +111,7 @@ signal, it just repeats those same samples with the same rate.
 
 Now that we know the position of the wave at a fixed time interval, we can
 simply store those levels in a table - or, say, a .wav file. (If you want to
-see samples with your own eyes, open up any sound flie in something like
+see samples with your own eyes, open up any sound file in something like
 Audacity and zoom in until you see individual dots on the waveform.)
 
 How fast do we have to sample?
