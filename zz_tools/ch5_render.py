@@ -19,7 +19,7 @@ CHIPS = np.array([-1,  1, -1,  1,  1, -1, -1,  1, -1, -1,  1,  1,  1,  1])
 
 f, (pos, neg) = plt.subplots(2, sharex=True, sharey=True)
 for fig, chips in [(pos, CHIPS), (neg, -CHIPS)]:
-    fig.plot([0] + list(chips), color='g', drawstyle='steps-pre')
+    fig.plot([chips[0]] + list(chips), color='g' if fig == pos else 'r', drawstyle='steps-pre')
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
     do_annotate(fig, chips)
